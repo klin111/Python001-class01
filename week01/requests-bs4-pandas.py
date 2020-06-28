@@ -40,4 +40,4 @@ for m_info in bs_info.find_all('div', attrs={'class': 'movie-hover-info'}):
 
 # print(result_list)
 m_cvs=pd.DataFrame(result_list)
-m_cvs.to_csv('./movie.cvs',index=False)
+m_cvs.to_csv('./movie.cvs',ncoding='utf8',index=False)
