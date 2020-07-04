@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
+#倒入自带框架
 import scrapy
+#倒入要保存的列表项
 from spiders_maoyan.items import SpidersMaoyanItem
-from scrapy.selector import Selector
+#倒入框架自带的选择器，也就是lxml 包封装的过滤器
+from scrapy.selector import Selector 
 
 
 class MaoyanSpider(scrapy.Spider):
