@@ -1,5 +1,6 @@
 import fire
 from concurrent.futures import ThreadPoolExecutor
+import subprocess
 
 
 def ping_f(n, f, ip):
