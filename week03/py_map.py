@@ -1,4 +1,6 @@
 import fire
+from concurrent.futures import ThreadPoolExecutor
+
 
 def ping_f(n, f, ip):
     # 把ip地址格式标准化，用map方式加入线程池
